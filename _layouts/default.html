@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{{ page.title }}</title>
         <!-- link to main stylesheet -->
         <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <meta charset="utf-8">
+        <meta name="viewport" width="device-width, initial-scale=1.0">
+        <meta name="description" content="{{ page.description }}">
+        <meta name="author" content="Dang Huynh">
+        <title>{{ page.title }} | Dang Huynh | C/C++, linux embedded system, networking, software design, team leader</title>
+        {% include analytics.html %}
     </head>
     <body>
         <nav>
